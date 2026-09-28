@@ -1,0 +1,9 @@
+# Ignore environment variables containing secret API keys
+.env
+.env.*
+
+# Python build & environment artifacts
+__pycache__/
+*.pyc
+.venv/
+venv/
